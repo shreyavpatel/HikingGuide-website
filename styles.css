@@ -190,15 +190,23 @@ li{
     background-color: #84a28d;
     padding: 5px;
     margin-bottom: 10px;
+    /*vertical-align: middle;*/
+}
+
+.hike-picture-section{
+    width: 30%;
 }
 
 .hike-picture{
-    width: 30%;
+    width: 100%;
     padding: 20px;
 }
 
 .hike-description{
-    padding: 20px 50px 0 60px;
+    padding: 0 50px 0 60px;
+    width: 70%;
+    vertical-align: middle;
+    line-height: 1;
 }
 
 .main-hike-section{
