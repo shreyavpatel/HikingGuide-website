@@ -1,0 +1,222 @@
+body{
+    background-color: #09451A;
+}
+
+.menu-options{
+    position: fixed;
+    background-color: #e0e8e2;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    right: 0;
+    left: 0;
+}
+
+.menu-option{
+    width: 25%;
+    text-decoration: none;
+}
+
+h2{
+    font-family: "MS UI Gothic";
+    color: #285C37;
+    font-size:150%;
+    text-align: center;
+    margin: 10px;
+}
+
+.main-banner{
+    position: relative;
+    text-align: center;
+}
+
+#background-image{
+    width: 100%;
+}
+
+.adventure-header{
+    color: #ECEF3A;
+    font-family: "MS UI Gothic";
+    font-size:250%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    font-family: "MS UI Gothic";
+    color: #A3B9A9;
+    font-size:175%;
+    text-align: center;
+}
+
+.main-content{
+    margin-top: 50px;
+}
+
+.home-info-section{
+    position: relative;
+}
+
+.accent-bar{
+    background-color: #658B70;
+    margin: 50px;
+    width: 30%;
+    height: 600px;
+    position: absolute;
+}
+
+.home-info-bar-one{
+    background-color: #A3B9A9;
+    margin: 100px;
+    height: 130px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.home-info-bar-two{
+    background-color: #A3B9A9;
+    margin-top: 285px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 130px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.home-info-bar-three{
+    background-color: #A3B9A9;
+    margin-top: 470px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 130px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+h4{
+    font-family: "MS UI Gothic";
+    color: #285c37;
+    font-size:150%;
+    text-align: center;
+}
+
+p{
+    font-family: "MS UI Gothic";
+    color: #477453;
+    font-size:120%;
+}
+.tips-table{
+    margin-top: 10px;
+    position: absolute;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+}
+
+table{
+    background-color: #a3b9a9;
+    width: 100%;
+    border: 2px solid #09451a;
+    margin-bottom: 50px;
+}
+
+th{
+    font-family: "MS UI Gothic";
+    background-color: #84a28d;
+    color: #285c37;
+    font-size:160%;
+    text-align: center;
+    border: 2px solid #09451a;
+    padding: 5px;
+}
+
+td{
+    border: 2px solid #09451a;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #c2d1c6;
+}
+
+.home-info-bar-text{
+    font-family: "MS UI Gothic";
+    color: #477453;
+    font-size:120%;
+    text-align: center;
+}
+
+h5{
+    font-family: "MS UI Gothic";
+    color: #285c37;
+    font-size:120%;
+}
+
+.tip-description{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+ol{
+    width: fit-content;
+    text-align: left;
+}
+
+li{
+    font-family: "MS UI Gothic";
+    color: #477453;
+    font-size:120%;
+}
+
+#hiking-guide-banner{
+    margin-top: 60px;
+    width: 100%;
+}
+
+.hike-section{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #84a28d;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.hike-picture{
+    width: 30%;
+    padding: 20px;
+}
+
+.hike-description{
+    padding: 20px 50px 0 60px;
+}
+
+.main-hike-section{
+    margin-top: 60px;
+    position: absolute;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+}
+
+.hike-title{
+    font-size:150%;
+}
+
+.hike-stats{
+    font-family: "MS UI Gothic";
+    color: #477453;
+    font-size:100%;
+}
